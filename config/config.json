@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "alert-marquee-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/alertMarquee/AlertMarqueeWebPart.js",
+          "manifest": "./src/webparts/alertMarquee/AlertMarqueeWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AlertMarqueeWebPartStrings": "lib/webparts/alertMarquee/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}
